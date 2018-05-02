@@ -35,13 +35,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="./about.html">About</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -57,11 +57,11 @@
         </ol> -->
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('img/Homepage/MoreCodePrettyDim.png'); text-align:center; vertical-align: middle; font-size: 5.7rem">
+          <div class="carousel-item active" style="background-image: url('img/Homepage/MoreCodePrettyDim.jpg'); text-align:center; vertical-align: middle; font-size: 5.7rem">
             <div style="font-family: Montserrat, sans-serif; color: white; font-weight: 700; line-height: 1.2; leter-spacing: -.1rem; position: relative;">
             <!-- <div class="carousel-caption d-none d-md-block" style="Montserrat, sans-serif"> -->
               <p style="padding-top: 10%;">Hi!  My name is Chris.</p>
-              <p>I develop and build:</p>
+              <p>I build applications using:</p>
               <span id="rotatingText"></span>
             </div>
           </div>
@@ -102,7 +102,7 @@
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="https://dry-beyond-87801.herokuapp.com/"><img class="card-img-top" src="./img/image10.png" alt=""></a>
+            <a href="https://dry-beyond-87801.herokuapp.com/"><img height=200 class="card-img-top" src="./img/image10.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="https://dry-beyond-87801.herokuapp.com/">YouTube API</a>
@@ -113,12 +113,12 @@
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="https://sleepy-fjord-98252.herokuapp.com/"><img height=200 class="card-img-top" src="./img/SurveyChimp/Capture.PNG" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Two</a>
+                <a href="https://sleepy-fjord-98252.herokuapp.com/">SurveyChimp</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">This business application demo is a pay-as-you-go survey platform.  Purchase credits, then easily create a survey to collect your participants' opinions. <a href="./SurveyChimp.html">(more...)</a></p>
             </div>
           </div>
         </div>
@@ -172,21 +172,22 @@
       <!-- Features Section -->
       <div class="row">
         <div class="col-lg-6">
-          <h2>Modern Business Features</h2>
-          <p>The Modern Business template by Start Bootstrap includes:</p>
+          <h2>Featured Technologies</h2>
+          <p>The following technologies, frameworks, and libraries were used in these projects:</p>
           <ul>
-            <li>
-              <strong>Bootstrap v4</strong>
-            </li>
-            <li>jQuery</li>
-            <li>Font Awesome</li>
-            <li>Working contact form with validation</li>
-            <li>Unstyled page elements for easy customization</li>
+            <li>Node.js & Express / ASP.NET</li>
+            <li>React / Redux (and custom SPA frameworks)</li>
+            <li>MongoDB / SQL Server / MySQL</li>
+            <li>Heroku / AWS</li>
+            <li>Webpack / Babel</li>
+            <li>Bootstrap / Materialize CSS</li>
+            <li>OAuth</li>
+            <li>Stripe Payment / SendGrid Email / Google APIs</li>
           </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+          <p>All demo projects are hosted on Heroku's free tier.  Please give the dynos a minute to spin up when first visiting the sites.  After that, things should move along pretty quick :)</p>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+          <img class="img-fluid rounded" src="./img/Homepage/All logos.png" alt="">
         </div>
       </div>
       <!-- /.row -->
@@ -199,7 +200,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
         </div>
         <div class="col-md-4">
-          <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+          <a class="btn btn-lg btn-warning btn-block" href="./contact.html">Contact Me</a>
         </div>
       </div>
 
@@ -209,7 +210,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; chrisaking.me 2018</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -221,9 +222,16 @@
     <script>
     var typed = new Typed("#rotatingText", {
   strings: [
-    "enterprise web applications.",
-    "React/Redux programs.",
-    "ASP.NET websites."
+    "React/Redux.",
+    "Node.js and Express.",
+    "Webpack and Babel.",
+    "custom SPA frameworks.",
+    "ASP.NET.",
+    "MongoDB.",
+    "AWS.",
+    "MySQL.",
+    "Heroku.",
+    "SQL Server."
   ],
   typeSpeed: 50,
   startDelay: 400,
